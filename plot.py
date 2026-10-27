@@ -52,6 +52,6 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--data_dir', type=str, default='data')
     parser.add_argument('--int_space', type=int, default=50_000)
-    parser.add_argument('--total_steps', type=int, default=2_000_000)
+    parser.add_argument('--total_steps', type=int, default=5_000_000)
     args = parser.parse_args()
     main(args.data_dir, args.int_space, args.total_steps)
